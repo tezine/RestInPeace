@@ -1,0 +1,17 @@
+
+*.dll
+*.pdb
+*.iml
+.idea/.idea.RestInPeace/.idea/contentModel.xml
+.idea/.idea.RestInPeace/.idea/indexLayout.xml
+.idea/.idea.RestInPeace/.idea/misc.xml
+.idea/.idea.RestInPeace/.idea/modules.xml
+.idea/.idea.RestInPeace/.idea/vcs.xml
+.idea/.idea.RestInPeace/.idea/workspace.xml
+bin/Debug/netcoreapp2.1/RestInPeace.deps.json
+bin/Debug/netcoreapp2.1/RestInPeace.runtimeconfig.dev.json
+bin/Debug/netcoreapp2.1/RestInPeace.runtimeconfig.json
+*.cache
+obj/Debug/netcoreapp2.1/RestInPeace.AssemblyInfo.cs
+obj/Debug/netcoreapp2.1/RestInPeace.csproj.CopyComplete
+obj/Debug/netcoreapp2.1/RestInPeace.csproj.FileListAbsolute.txt

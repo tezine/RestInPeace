@@ -1,0 +1,60 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Projetos\\RestInPeace\\RestInPeace.csproj",
+    "projectName": "RestInPeace",
+    "projectPath": "C:\\Projetos\\RestInPeace\\RestInPeace.csproj",
+    "outputPath": "C:\\Projetos\\RestInPeace\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+      "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Projetos\\Libs\\DotnetBase\\DotnetBase\\DotnetBase.csproj": {
+            "projectPath": "C:\\Projetos\\Libs\\DotnetBase\\DotnetBase\\DotnetBase.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.Extensions.CommandLineUtils": {
+          "target": "Package",
+          "version": "[1.1.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
